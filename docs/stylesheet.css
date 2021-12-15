@@ -1,0 +1,86 @@
+
+/*
+Copyright © Zewutz 2021 - https://github.com/zewutz (https://esanta.me/discord-bot)
+Description: Source code for Discord Bot eSanta
+Author: Zewutz
+Version: 1.0.0
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    width: auto;
+    height: auto;
+    background-color: rgb(25,25,25);
+    background-image: url("https://github.com/zewutz/discord-bot/blob/main/docs/assets/brand/discord-github-pattern.png?raw=true");
+}
+
+/* Tab size */
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+	body {
+		size: 75%;
+	}
+  }
+
+
+
+/* Navbar */
+.navbar-bg {
+    background-color: rgb(50,50,50);
+}
+
+.brand {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+	margin-left:5%;
+}
+
+
+.navbar-text {
+	margin-right: 5%;
+  font-family: monospace;
+}
+
+.construction {
+  color:white;
+  background-color: rgb(25, 25, 25);
+  text-shadow: black 2px;
+  text-align: center;
+  vertical-align: middle;
+  width:auto;
+  height: auto;
+}
+
+/*Rainbow Animation effect*/
+
+#shadowBox {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Black w/opacity/see-through */
+  border: 3px solid;
+}
+
+.rainbow {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 32px;
+  font-family: monospace;
+  letter-spacing: 5px;
+}
+.rainbow_text_animated {
+  background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: rainbow_animation 6s ease-in-out infinite;
+  background-size: 400% 100%;
+}
+  
+@keyframes rainbow_animation {
+  0%,100% {
+      background-position: 0 0;
+  }
+
+  50% {
+      background-position: 100% 0;
+  }
+}
