@@ -6,11 +6,14 @@ Author: Zewutz
 Version: 1.0.0
 */
 
+:root {
+  --navbar-text-color: #fffffa;
+}
+
 body {
-    width: auto;
-    height: auto;
-    background-color: rgb(25,25,25);
-    background-image: url("https://raw.githubusercontent.com/eSanta-Bot/website/main/docs/assets/brand/discord-github-pattern.png");
+  width: auto;
+  height: auto;
+  background-color: rgb(25,25,25);
 }
 
 /* Tab size */
@@ -20,32 +23,21 @@ body {
 	}
 }
 
-
 /* Navbar */
-.navbar-bg {
-    background-color: rgb(50,50,50);
+.navbar-color {
+  background-color: rgb(50,50,50);
 }
-
-.brand {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-	margin-left:5%;
-}
-
 
 .navbar-text {
-	margin-right: 5%;
   font-family: monospace;
+  color: var(--navbar-text-color);
 }
 
-.construction {
-  color:white;
-  background-color: rgb(25, 25, 25);
-  text-shadow: black 2px;
-  text-align: center;
-  vertical-align: middle;
-  width:auto;
-  height: auto;
+
+.navbar-logo {
+  padding-left: 0.3125rem;
 }
+
 
 /*Rainbow Animation effect*/
 
