@@ -5,13 +5,12 @@ Description: Source code for Discord Bot eSanta
 Author: Zewutz
 Version: 1.0.0
 */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 body {
     width: auto;
     height: auto;
     background-color: rgb(25,25,25);
-    background-image: url("https://github.com/zewutz/discord-bot/blob/main/docs/assets/brand/discord-github-pattern.png?raw=true");
+    background-image: url("https://raw.githubusercontent.com/eSanta-Bot/website/main/docs/assets/brand/discord-github-pattern.png");
 }
 
 /* Tab size */
@@ -19,8 +18,7 @@ body {
 	body {
 		size: 75%;
 	}
-  }
-
+}
 
 
 /* Navbar */
@@ -50,14 +48,6 @@ body {
 }
 
 /*Rainbow Animation effect*/
-
-#shadowBox {
-  background-color: rgb(0, 0, 0);
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.2);
-  /* Black w/opacity/see-through */
-  border: 3px solid;
-}
 
 .rainbow {
   text-align: center;
